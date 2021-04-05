@@ -18,7 +18,6 @@ int main() {
     int removed_cnt = remove_elements(numbers, LEN);
     puts("\narray after removing even elements:");
     print_array(numbers, LEN - removed_cnt);
-    getchar(); getchar();
     return 0;
 }
 
